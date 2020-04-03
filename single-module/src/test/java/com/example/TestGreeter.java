@@ -30,4 +30,12 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
+  
+  @Test
+  public void estoEsUnaPrueba() {
+    int i=1;
+    int u=1;
+    asserTrue(i==u);
+  }
+  
 }
