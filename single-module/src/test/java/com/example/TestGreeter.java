@@ -35,7 +35,7 @@ public class TestGreeter {
   public void estoEsUnaPrueba() {
     int i=1;
     int u=1;
-    asserTrue(i=u);
+    assertTrue(i==u);
   }
   
 }
